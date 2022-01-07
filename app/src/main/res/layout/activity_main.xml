@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".Scroll_View">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/spu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sankalchand Patel University"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Sankalchand Patel University’s history can be traced back to 1952 when Nootan Sarva Vidyalaya Kelavani Mandal (NSVKM) was established by Shri. Sankalchand Patel, a freedom fighter and a social entrepreneur. The objective was to fulfill educational and socio-cultural needs of the people in North Gujarat. It was the collective vision of Shri. Sankalchand Patel and the Trust which helped Nootan Sarva Vidyalaya Kelavani Mandal (NSVKM) achieve the status of Sankalchand Patel University (SPU). At the university, value based diversified education was given prominence and delivered to the students in North Gujarat.
+Since 2014, under the dynamic leadership of Hon’ble Chairman, Shri. Prakash Patel, the trust has effectively achieved its goal to fulfill educational needs in the area through the Nootan Education cluster of 2 schools and 13 colleges on two separate campuses. The Trust commenced its first educational activity with the setting-up of the Nootan High School in Visnagar.
+Today, the trust successfully administers educational institutions right from primary schools to graduate and post graduate colleges and other professional courses including Ph.D. programs. The trust’s unswerving efforts towards the growth of education have earned its institutes many merits and a resilient name in the educational campaign of India."
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
